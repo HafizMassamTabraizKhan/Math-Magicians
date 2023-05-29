@@ -149,7 +149,7 @@ Run the react app in your browser.
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors">Foga Kater Amos</a>
+## 👥 Author <a name="authors">Hafiz Massam Tabraiz Khan</a>
 
 👤 **Hafiz Massam Tabraiz Khan**
 
