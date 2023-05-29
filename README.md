@@ -80,11 +80,7 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://react.dev/">HTML</a></li>
-    <li><a href="https://html.com/">HTML</a></li>
-    <li><a href="http://www.css.com/">CSS</a></li>
-    <li><a href="http://www.javascript.com/">JavaScript</a></li>
-    <li><a href="https://webpack.js.org/">Webpack</a></li>
+    <li><a href="https://react.dev/">React</a></li>
   </ul>
 </details>
 
