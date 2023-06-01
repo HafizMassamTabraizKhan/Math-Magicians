@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 function CalculatorDisplay({ total, operation, next }) {
   return (
     <div className="display-screen">
-      {total !== 0 && total}
+      {total}
       {operation}
       {next}
     </div>
@@ -17,7 +17,7 @@ CalculatorDisplay.propTypes = {
 };
 
 CalculatorDisplay.defaultProps = {
-  total: null,
+  total: '',
   operation: null,
   next: null,
 };
