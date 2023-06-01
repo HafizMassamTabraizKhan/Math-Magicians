@@ -1,19 +1,9 @@
-import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import CalculatorDisplay from './CalculatorDisplay';
-import calculate from '../logic/calculate';
 
-function CalculatorKeys() {
-  const [total, setTotal] = useState(null);
-  const [next, setNext] = useState(null);
-  const [operation, setOperation] = useState(null);
-
-  const btnClick = (e) => {
-    const res = calculate({ total, next, operation }, e.target.innerText);
-    setTotal(res.total);
-    setNext(res.next);
-    setOperation(res.operation);
-  };
-
+function CalculatorKeys({
+  btnClick, total, operation, next,
+}) {
   return (
     <div className="wrapper">
       <CalculatorDisplay total={Number(total)} operation={operation} next={next} />
@@ -24,7 +14,7 @@ function CalculatorKeys() {
       <button type="button" className="btn light-gray" onClick={btnClick}>7</button>
       <button type="button" className="btn light-gray" onClick={btnClick}>8</button>
       <button type="button" className="btn light-gray" onClick={btnClick}>9</button>
-      <button type="button" className="btn orange" onClick={btnClick}>X</button>
+      <button type="button" className="btn orange" onClick={btnClick}>x</button>
       <button type="button" className="btn light-gray" onClick={btnClick}>4</button>
       <button type="button" className="btn light-gray" onClick={btnClick}>5</button>
       <button type="button" className="btn light-gray" onClick={btnClick}>6</button>
@@ -39,5 +29,17 @@ function CalculatorKeys() {
     </div>
   );
 }
+
+CalculatorKeys.propTypes = {
+  btnClick: PropTypes.func.isRequired,
+  total: PropTypes.number.isRequired,
+  operation: PropTypes.string,
+  next: PropTypes.string,
+};
+
+CalculatorKeys.defaultProps = {
+  operation: null,
+  next: null,
+};
 
 export default CalculatorKeys;
