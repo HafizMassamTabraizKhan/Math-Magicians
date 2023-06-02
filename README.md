@@ -152,10 +152,6 @@ Run the react app in your browser.
 - [ ] Create Home Page
 - [ ] Create Calculator Page
 - [ ] Create Quote Page
-- [ ] Use database to save the comments and likes
-- [ ] User Authentication and Authorization feature
-- [ ] Create the About section
-- [ ] Create the contact section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
