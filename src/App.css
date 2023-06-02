@@ -15,8 +15,8 @@ body {
 
 .container {
   margin-inline: auto;
-  margin-top: 10%;
-  width: 40%;
+  margin-top: 2%;
+  width: 25%;
   padding: 1rem;
 }
 
@@ -24,6 +24,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .display-screen {
@@ -58,4 +59,30 @@ body {
   transform: scale(1.05);
   font-weight: 700;
   transition: 0.3s;
+}
+
+.display-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 2px solid grey;
+  padding: 2%;
+  margin-block: 4%;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.quote span {
+  font-weight: bold;
+}
+
+.author {
+  align-self: flex-end;
+  font-weight: bold;
 }

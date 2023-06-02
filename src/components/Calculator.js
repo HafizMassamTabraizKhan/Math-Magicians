@@ -14,14 +14,14 @@ function Calculator() {
   };
 
   return (
-    <div className="container">
+    <>
       <CalculatorKeys
         btnClick={btnClick}
         total={Number(state.total)}
         operation={state.operation}
         next={state.next}
       />
-    </div>
+    </>
   );
 }
 
