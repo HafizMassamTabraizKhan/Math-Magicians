@@ -42,15 +42,17 @@ const QuoteComponent = () => {
   }
 
   return (
-    <div className="display-text">
-      <p className="quote">
-        <span>Quote:</span>
-        &ldquo;
-        {quote.quote}
-        &rdquo;
-      </p>
-      <span className="author">{quote.author}</span>
-    </div>
+    <center>
+      <div className="display-text">
+        <p className="quote">
+          <span>Quote:</span>
+          &ldquo;
+          {quote.quote}
+          &rdquo;
+        </p>
+        <span className="author">{quote.author}</span>
+      </div>
+    </center>
   );
 };
 

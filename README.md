@@ -86,8 +86,11 @@ After you're finished please remove all the comments and instructions!
 <!-- Features -->
 ### Key Features 
 
-1. Perform arithmetic operations between two numbers.
-2. Display result.
+1. Create Home Page
+2. Create Calculator Page
+3. Create Quote Page
+4. Perform arithmetic operations between two numbers.
+5. Display result.
 
 <!-- GETTING STARTED -->
 
@@ -149,9 +152,9 @@ Run the react app in your browser.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Create Home Page
-- [ ] Create Calculator Page
-- [ ] Create Quote Page
+- [ ] User Authentication and Authorization feature
+- [ ] Create the About section
+- [ ] Create the contact section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
